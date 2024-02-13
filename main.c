@@ -16,6 +16,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <gpiod.h>        // GPIO control
+#include <wiringPi.h>     // GPIO control
 #include <wiringPiSPI.h>  // SPI control
 #include "IS25LP256.h"
 
