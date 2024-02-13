@@ -116,9 +116,9 @@ int main() {
   /*
     while(1){
         gpiod_line_set_value(line, 0); // Set line low (0V)
-        sleep(1);
+        usleep(500000);                // delay 0.5sec
         gpiod_line_set_value(line, 1); // Set line high (3.3V)
-        sleep(1);
+        usleep(500000);                // delay 0.5sec
     }
 */
   
